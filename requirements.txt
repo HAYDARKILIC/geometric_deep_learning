@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Graphs
+networkx>=3.0
+
+# Deep learning
+torch>=2.0
+# PyTorch Geometric. If this does not resolve all C++/CUDA extensions on your
+# platform, follow https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+torch_geometric>=2.4
+
+# Notebook environment
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.0
+
+# Optional: exact SE(3)-equivariant networks (Week 4 / Week 6 extensions)
+# e3nn>=0.5
