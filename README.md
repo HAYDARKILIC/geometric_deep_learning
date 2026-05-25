@@ -1,11 +1,5 @@
 # Geometric Deep Learning: From Foundations to Applications
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg)](https://pytorch.org/)
-[![PyG](https://img.shields.io/badge/PyTorch%20Geometric-2.x-3c8dbc.svg)](https://pytorch-geometric.readthedocs.io/)
-[![CI](https://github.com/HAYDARKILIC/geometric-deep-learning/actions/workflows/notebooks.yml/badge.svg)](https://github.com/HAYDARKILIC/geometric-deep-learning/actions)
-
 This repository contains a comprehensive **6-week course on Geometric Deep Learning (GDL)**, designed to bridge the gap between theoretical manifold learning and modern deep learning architectures.
 
 > Maintained by [**@HAYDARKILIC**](https://github.com/HAYDARKILIC).
@@ -63,8 +57,8 @@ geometric-deep-learning/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/HAYDARKILIC/geometric-deep-learning.git
-cd geometric-deep-learning
+git clone https://github.com/HAYDARKILIC/geometric_deep_learning.git
+cd geometric_deep_learning
 ```
 
 ### 2. Install dependencies
@@ -73,13 +67,6 @@ Using `pip`:
 
 ```bash
 pip install -r requirements.txt
-```
-
-Or using `conda`:
-
-```bash
-conda env create -f environment.yml
-conda activate gdl
 ```
 
 > **Note on PyTorch Geometric.** PyG ships platform/CUDA-specific wheels. If `pip install torch_geometric` does not resolve all extensions on your system, follow the [official installation guide](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html). The Week 1, 2, and 5 notebooks run without PyG (NumPy/SciPy only); PyG is required from Week 3 onward.
@@ -92,16 +79,6 @@ jupyter lab          # or: jupyter notebook
 
 Open any week's `theory.ipynb` first, then work through `implementation.ipynb`.
 
-## Learning Path
-
-The weeks are cumulative and best taken in order:
-
-1. **Weeks 1&ndash;2** build the mathematical vocabulary (symmetry, groups, the Laplacian).
-2. **Week 3** delivers the workhorse architectures (GCN, GAT).
-3. **Week 4** moves to 3D and the rotation problem.
-4. **Week 5** supplies the Riemannian tools for curved domains.
-5. **Week 6** synthesises everything into a working mesh-segmentation system.
-
 ## Academic References
 
 - Bronstein, M. M., Bruna, J., Cohen, T., &amp; Veli&#269;kovi&#263;, P. (2021). *Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges.* arXiv:2104.13478.
@@ -111,10 +88,6 @@ The weeks are cumulative and best taken in order:
 - Qi, C. R., et al. (2017). *PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation.* CVPR.
 
 A complete, per-topic reference list is included at the end of each `theory.ipynb`.
-
-## Contributing
-
-Contributions, corrections, and exercise solutions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
