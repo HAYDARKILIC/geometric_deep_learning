@@ -2,8 +2,6 @@
 
 This repository contains a comprehensive **6-week course on Geometric Deep Learning (GDL)**, designed to bridge the gap between theoretical manifold learning and modern deep learning architectures.
 
-> Maintained by [**@HAYDARKILIC**](https://github.com/HAYDARKILIC).
-
 ---
 
 ## Course Overview
